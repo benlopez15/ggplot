@@ -26,16 +26,9 @@ loc <- ggplot(State, aes(x = Loc, y = GY, fill = factor(Loc,))) +
   geom_boxplot(width = 0.2, color = "black", 
                outlier.color = "black", fill = "white") +
 
-  # Set fill colors using the palette
- # scale_fill_manual(values = my_palette) +
-  
-  # Set the title, axis labels, and limits
   labs(title = "Grain Yield 2024",
        x = "Location", y = "Grain Yield",
        fill = NULL ) +
-  #ylim(40, 140) +
-  
-  # Customize the theme
   theme_classic() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 14),
         legend.position = "bottom",
@@ -54,7 +47,6 @@ locHist <- ggplot(State, aes(GY, after_stat(density),  fill = factor(Loc,))) +
   geom_histogram() + facet_wrap(~Loc, ncol = 3) +
   labs(title = "State Grain Yield Distribution 2024", 
                           x = "Grain Yield", y = "Density", fill = NULL) +
-  # Customize the theme
   theme_get() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
         legend.position = "bottom",
