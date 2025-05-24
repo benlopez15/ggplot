@@ -64,3 +64,4 @@ locHist <- ggplot(State, aes(GY, after_stat(density),  fill = factor(Loc,))) +
   theme(axis.text.y = element_text(size = 14))
 locHist
         
+![image](https://github.com/user-attachments/assets/3de27002-e986-4d26-9081-1ff836933c05)
