@@ -18,6 +18,9 @@ HM <- ggplot(data, aes(x = X.Row., y = Range)) +
         legend.text = element_text(size = 12))
 HM
 
+![Rplot](https://github.com/user-attachments/assets/dfb03ee9-489b-4bcd-93c0-ea17a5b34653)
+
+
 ################################################################################
 #Comparing Environments with Violin Plots
 ################################################################################
