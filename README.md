@@ -43,6 +43,9 @@ loc <- ggplot(State, aes(x = Loc, y = GY, fill = factor(Loc,))) +
   theme(axis.text.y = element_text(size = 14))
 loc
 
+![image](https://github.com/user-attachments/assets/a89ca0d6-3aa0-47ab-8510-a0152f82b58f)
+
+
 ################################################################################
 #Distribution at multiple locations histogram
 ################################################################################
